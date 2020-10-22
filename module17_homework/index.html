@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+    <title>SkillDrive</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">   
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="theme-content">
         <header>
-            <nav class="navbar">
+            <nav>
                 <div class="navbar-conteiner">
-                    <div class="navbar-brand">
-                        <div class="navbar-brand-text">SkillDrive</div>
-                    </div>
+                    <div class="navbar-brand-text">SkillDrive</div>
                     <div class="navbar-menu">
-                        <li class="navbar-item">О нас</li>
-                        <li class="navbar-item">Условия</li>
-                        <li class="navbar-item">Частые вопросы</li>
+                        <a class="navbar-item" href="https://www.google.com/">О нас</a>
+                        <a class="navbar-item" href="https://www.google.com/">Условия</a>
+                        <a class="navbar-item" href="https://www.google.com/">Частые вопросы</a>
                         <div class="login">
-                            <div class="login-text">Войти</div>
+                            <a class="login-text" href="https://www.google.com/">Войти</a>
                         </div>
                     </div>
                 </div>
@@ -28,73 +27,72 @@
         </header>
     
         <main>
-
-
-                <article class="descr-conteiner">
-                    <img class="descr-img" src="asset/aboutUs.svg" alt="">
-                    <h1 class="descr-heading">О нас</h1>
-                    <span class="descr-text">
+            <section class="description">
+                <div class="description-conteiner">
+                    <img class="description-img" src="asset/aboutUs.svg" alt="4 программиста и собака">
+                    <h1 class="description-heading">О нас</h1>
+                    <span class="description-text">
                         Это учебный проект, созданный с целью получения боевого опыта в разработке настоящего живого веб-приложения. Этот сервис имитирует работу каршеринга, в котором можно не только арендовать автомобили, но и сдавать их в аренду.
                     </span>
-                </article>
+                </div>
+            </section>
 
-
-            <article class="contacts">
+            <section class="contacts">
                 <div class="contacts-conteiner">
                     <h2 class="contacts-heading">Контакты</h2>
                     <div class="adress-conteiner">
-                        <div class="adress-heading">Электронная почта<p><span class="adress">drive@skillfactory.com</span></p></div>
+                        <div class="adress-heading">Электронная почта<br><span class="adress">drive@skillfactory.com</span></div>
                         <hr>
-                        <div class="adress-heading">Телефон<p><span class="adress">+7 912 123-45-67</span></p></div>
+                        <div class="adress-heading">Телефон<br><span class="adress">+7 912 123-45-67</span></div>
                 </div>
-            </article>
+            </section>
 
-            <article class="teams-conteiner">
-                <h2 class="teams-heading">Команда</h2>
-                <div class="teams-item-container">
-                    <div class="teams-item">
-                        <img src="asset/Ellipse 9.jpg" alt="">
-                        <div class="teams-name">Иван Иванов<p><span class="profession">СЕО</span></p></div>
-                    </div>
-                    <div class="teams-item">
-                        <img src="asset/Ellipse 10.jpg" alt="">
-                        <div class="teams-name">Алексей Смирнов<p><span class="profession">Frontend-разработчик</span></p></div>
-                    </div>
-                    <div class="teams-item">
-                        <img src="asset/Ellipse 11.jpg" alt="">
-                        <div class="teams-name">Денис Ярцев<p><span class="profession">Backend-разработчик</span></p></div>
-                    </div>
-                    <div class="teams-item">
-                        <img src="asset/Ellipse 12.jpg" alt="">
-                        <div class="teams-name">Николай Морозов<p><span class="profession">Дизайнер</span></p></div>
-                    </div>
-                    <div class="teams-item">
-                        <img src="asset/Ellipse 13.jpg" alt="">
-                        <div class="teams-name">Ирина Деева<p><span class="profession">Копирайтер</span></p></div>
-                    </div>
-                    <div class="teams-item">
-                        <img src="asset/Ellipse 14.jpg" alt="">
-                        <div class="teams-name">Мария Стрелкова<p><span class="profession">SMM</span></p></div>
+            <section class="teams">
+                <div class="teams-conteiner">
+                    <h2 class="teams-heading">Команда</h2>
+                    <div class="teams-item-container">
+                        <div class="teams-item">
+                            <img src="asset/Ellipse 9.jpg" alt="Иван Иванов, СЕО">
+                            <div class="teams-name">Иван Иванов<br><span class="profession">СЕО</span></div>
+                        </div>
+                        <div class="teams-item">
+                            <img src="asset/Ellipse 10.jpg" alt="Алексей Смирнов, Frontend-разработчик">
+                            <div class="teams-name">Алексей Смирнов<br><span class="profession">Frontend-разработчик</span></div>
+                        </div>
+                        <div class="teams-item">
+                            <img src="asset/Ellipse 11.jpg" alt="Денис Ярцев, Backend-разработчик">
+                            <div class="teams-name">Денис Ярцев<br><span class="profession">Backend-разработчик</span></div>
+                        </div>
+                        <div class="teams-item">
+                            <img src="asset/Ellipse 12.jpg" alt="Николай Морозов, Дизайнер">
+                            <div class="teams-name">Николай Морозов<br><span class="profession">Дизайнер</span></div>
+                        </div>
+                        <div class="teams-item">
+                            <img src="asset/Ellipse 13.jpg" alt="Ирина Деева, Копирайтер">
+                            <div class="teams-name">Ирина Деева<br><span class="profession">Копирайтер</span></div>
+                        </div>
+                        <div class="teams-item">
+                            <img src="asset/Ellipse 14.jpg" alt="Мария Стрелкова, SMM">
+                            <div class="teams-name">Мария Стрелкова<br><span class="profession">SMM</span></div>
+                        </div>
                     </div>
                 </div>
-            </article>
-
+            </section>
         </main>
+
         <footer>
             <div class="footer-container">
-                <div class="copyright">© SkillDrive Inc. 2020</div>
+                <span class="copyright">© SkillDrive Inc. 2020</span>
                 <div class="social-media">
-                    <img class="social-media-item" src="asset/social-media/vk.svg" alt="">
-                    <img class="social-media-item" src="asset/social-media/insta.svg" alt="">
-                    <img class="social-media-item" src="asset/social-media/facebook.svg" alt="">
+                    <img class="social-media-item" src="asset/social-media/vk.svg" alt="Вконтакте">
+                    <img class="social-media-item" src="asset/social-media/insta.svg" alt="Instagram">
+                    <img class="social-media-item" src="asset/social-media/facebook.svg" alt="Facebook">
                 </div>
             </div>
         </footer>
     </div>
     
-
-
-
     <script src="script.js"></script>
+    
 </body>
 </html>
