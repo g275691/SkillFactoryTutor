@@ -4,7 +4,7 @@ describe("testing 1 arg repeatWord() - word", () => {
     it('("test",2) != "Test1test2"', () => {
         expect(repeatWord("test",2)).not.toBe("Test1test2");
     });
-    it('("test ",4) == " test1 test2 test3 test4"', () => {
+    it('(" test ",4) == " test1 test2 test3 test4"', () => {
         expect(repeatWord(" test",4)).toBe(" test1 test2 test3 test4");
     });
     it('("tEesT",3) == "tEesT1tEesT2tEesT3"', () => {
@@ -25,8 +25,8 @@ describe("testing 2 arg repeatWord() - count", () => {
     it('("test", 8) == "test1test2test3test4test5test6test7test8"', () => {
         expect(repeatWord("test", 8)).toBe("test1test2test3test4test5test6test7test8");
     });
-    it('("test", 2,45) != "test1test2test0,45"', () => {
-        expect(repeatWord("test", 2,45)).not.toBe(("test1test2test0,45"));
+    it('("test", 2,45) != "test1test2test2.45"', () => {
+        expect(repeatWord("test", 2,45)).not.toBe(("test1test2test2.45"));
     });
 });
 
