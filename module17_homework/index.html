@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkillDrive</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">   
+    <link rel="stylesheet" href="css/glyphter.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="theme-content">
         <header>
             <nav>
-                <div class="navbar-conteiner">
-                    <div class="navbar-brand-text">SkillDrive</div>
+                <div class="navbar__container">
+                    <img src="asset/Logo.svg" class="navbar-brand-text"></img>
                     <div class="navbar-menu">
-                        <a class="navbar-item" href="https://www.google.com/">О нас</a>
-                        <a class="navbar-item" href="https://www.google.com/">Условия</a>
-                        <a class="navbar-item" href="https://www.google.com/">Частые вопросы</a>
+                        <a class="navbar-item" href="https://www.google.com/" target="_blank" rel="nofollow">О нас</a>
+                        <a class="navbar-item" href="https://www.google.com/" target="_blank" rel="nofollow">Условия</a>
+                        <a class="navbar-item" href="https://www.google.com/" target="_blank" rel="nofollow">Частые вопросы</a>
                         <div class="login">
-                            <a class="login-text" href="https://www.google.com/">Войти</a>
+                            <a class="login-text" href="" target="_blank" rel="nofollow">Войти</a>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
     
         <main>
             <section class="description">
-                <div class="description-conteiner">
+                <div class="description__container">
                     <img class="description-img" src="asset/aboutUs.svg" alt="4 программиста и собака">
                     <h1 class="description-heading">О нас</h1>
                     <span class="description-text">
@@ -38,42 +38,67 @@
             </section>
 
             <section class="contacts">
-                <div class="contacts-conteiner">
+                <div class="contacts__container">
                     <h2 class="contacts-heading">Контакты</h2>
-                    <div class="adress-conteiner">
-                        <div class="adress-heading">Электронная почта<br><span class="adress">drive@skillfactory.com</span></div>
+                    <div class="address__container">
+                        <div class="address-heading">
+                            <span>Электронная почта</span><br>
+                            <span>drive@skillfactory.com</span>
+                        </div>
                         <hr>
-                        <div class="adress-heading">Телефон<br><span class="adress">+7 912 123-45-67</span></div>
+                        <div class="address-heading">
+                            <span>Телефон</span><br>
+                            <span>+7 912 123-45-67</span>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section class="teams">
-                <div class="teams-conteiner">
+                <div class="teams__container">
                     <h2 class="teams-heading">Команда</h2>
                     <div class="teams-item-container">
                         <div class="teams-item">
-                            <img src="asset/Ellipse 9.jpg" alt="Иван Иванов, СЕО">
-                            <div class="teams-name">Иван Иванов<br><span class="profession">СЕО</span></div>
+                            <img src="asset/Team_1.jpg" alt="Иван Иванов, СЕО">
+                            <div class="teams-name">
+                                <span>Иван Иванов</span><br>
+                                <span>СЕО</span>
+                            </div>
                         </div>
                         <div class="teams-item">
-                            <img src="asset/Ellipse 10.jpg" alt="Алексей Смирнов, Frontend-разработчик">
-                            <div class="teams-name">Алексей Смирнов<br><span class="profession">Frontend-разработчик</span></div>
+                            <img src="asset/Team_2.jpg" alt="Алексей Смирнов, Frontend-разработчик">
+                            <div class="teams-name">
+                                <span>Алексей Смирнов</span><br>
+                                <span>Frontend-разработчик</span>
+                            </div>
                         </div>
                         <div class="teams-item">
-                            <img src="asset/Ellipse 11.jpg" alt="Денис Ярцев, Backend-разработчик">
-                            <div class="teams-name">Денис Ярцев<br><span class="profession">Backend-разработчик</span></div>
+                            <img src="asset/Team_3.jpg" alt="Денис Ярцев, Backend-разработчик">
+                            <div class="teams-name">
+                                <span>Денис Ярцев</span><br>
+                                <span>Backend-разработчик</span>
+                            </div>
                         </div>
                         <div class="teams-item">
-                            <img src="asset/Ellipse 12.jpg" alt="Николай Морозов, Дизайнер">
-                            <div class="teams-name">Николай Морозов<br><span class="profession">Дизайнер</span></div>
+                            <img src="asset/Team_4.jpg" alt="Николай Морозов, Дизайнер">
+                            <div class="teams-name">
+                                <span>Николай Морозов</span><br>
+                                <span>Дизайнер</span>
+                            </div>
                         </div>
                         <div class="teams-item">
-                            <img src="asset/Ellipse 13.jpg" alt="Ирина Деева, Копирайтер">
-                            <div class="teams-name">Ирина Деева<br><span class="profession">Копирайтер</span></div>
+                            <img src="asset/Team_5.jpg" alt="Ирина Деева, Копирайтер">
+                            <div class="teams-name">
+                                <span>Ирина Деева</span><br>
+                                <span>Копирайтер</span>
+                            </div>
                         </div>
                         <div class="teams-item">
-                            <img src="asset/Ellipse 14.jpg" alt="Мария Стрелкова, SMM">
-                            <div class="teams-name">Мария Стрелкова<br><span class="profession">SMM</span></div>
+                            <img src="asset/Team_6.jpg" alt="Мария Стрелкова, SMM">
+                            <div class="teams-name">
+                                <span>Мария Стрелкова</span><br>
+                                <span>SMM</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -84,15 +109,16 @@
             <div class="footer-container">
                 <span class="copyright">© SkillDrive Inc. 2020</span>
                 <div class="social-media">
-                    <img class="social-media-item" src="asset/social-media/vk.svg" alt="Вконтакте">
-                    <img class="social-media-item" src="asset/social-media/insta.svg" alt="Instagram">
-                    <img class="social-media-item" src="asset/social-media/facebook.svg" alt="Facebook">
+
+                    <a href="" target="_blank" rel="nofollow" class="icon-facebook" alt="Facebook"></a>
+                    <a href="" target="_blank" rel="nofollow" class="icon-insta" alt="Instagram"></a>
+                    <a href="" target="_blank" rel="nofollow" class="icon-vk" alt="Vkontakte"></a>
+
                 </div>
             </div>
         </footer>
-    </div>
-    
+
     <script src="script.js"></script>
-    
+
 </body>
 </html>
