@@ -129,7 +129,6 @@ nav {
 }
 
 .teams__container {
-    margin-top: 80px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -140,6 +139,11 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.teams-heading {
+    margin-top: 80px;
+    margin-bottom: 55px;
 }
 
 .teams-item {

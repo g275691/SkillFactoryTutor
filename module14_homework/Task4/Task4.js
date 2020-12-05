@@ -18,7 +18,11 @@ btn.addEventListener('click', async () => {
   urlUse = `https://picsum.photos/${value1}/${value2}`;
   const requestResult = await useRequest();
 
+<<<<<<< HEAD
   if(value1 >= 100 && value1 <= 300 && value2 >= 100 && value2 <= 300) {
+=======
+  if(value1 > 100 && value1 < 300 && value2 > 100 && value2 < 300) {
+>>>>>>> 4e84c38a96275734607a55583509a765b8083e17
     resultNode.innerHTML = `<img src="${requestResult.url}"/>`;
   } else {
     resultNode.textContent = "Одно из чисел вне диапазона от 100 до 300";
